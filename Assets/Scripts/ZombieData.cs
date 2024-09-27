@@ -1,6 +1,7 @@
 using UnityEngine;
 
 // 좀비 생성시 사용할 셋업 데이터
+// Scriptable 데이터가지고있는  
 [CreateAssetMenu(menuName = "Scriptable/ZombieData", fileName = "Zombie Data")]
 public class ZombieData : ScriptableObject {
     public float health = 100f; // 체력
